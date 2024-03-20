@@ -2,6 +2,7 @@
 ::this utilizes the steamcmd executable and installs Tom Clancy's Rainbow Six Siege
 ::this file also calls on another batch file to clean up the mess steamcmd leaves behind
 
+cd "C:\temp\steamcmd"
 steamcmd +runscript installsiege_cmd.txt & ^
 siegefinish.bat & ^
 timeout /t 5

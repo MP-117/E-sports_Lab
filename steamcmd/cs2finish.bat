@@ -11,3 +11,5 @@ del ".\common\Steamworks Shared\_CommonRedist" /s /q
 rmdir ".\common\Steamworks Shared\_CommonRedist" /s /q
 
 move /Y ".\common\Counter-Strike Global Offensive\_CommonRedist" ".\common\Steamworks Shared"
+
+cd C:\temp

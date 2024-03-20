@@ -11,3 +11,4 @@ del ".\common\Steamworks Shared\_CommonRedist" /s /q
 rmdir ".\common\Steamworks Shared\_CommonRedist" /s /q
 
 move /Y ".\common\Tom Clancy's Rainbow Six Siege\_CommonRedist" ".\common\Steamworks Shared" 
+cd C:\temp
