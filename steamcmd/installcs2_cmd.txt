@@ -1,6 +1,6 @@
-::installcs2_cmd.txt written by Matthew Piotrowski 2024
-::these are the commands that are fed into the steamcmd.exe
-::replace usrname and pswd with the appropriate username and password for Steam logins
+//installcs2_cmd.txt written by Matthew Piotrowski 2024
+//these are the commands that are fed into the steamcmd.exe
+//replace usrname and pswd with the appropriate username and password for Steam logins
 
 force_install_dir "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive"
 login usrname pswd
