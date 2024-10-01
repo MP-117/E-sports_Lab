@@ -1,6 +1,3 @@
-::Cleanup.bat written by Matthew Piotrowski 2024
-::Cleans up the files in the temp directory
-
 del "profile deletion" /s /q
 rmdir "profile deletion" /s /q
 
