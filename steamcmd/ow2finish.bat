@@ -1,4 +1,4 @@
-::ow2finish.bat written by Matthew Piotrowski 2024
+::ow2finish.bat written by Matthew Piotrowski 2024-2025
 ::this cleans up the mess that steamcmd leaves when installing to a directory other than the default
 
 cd "C:\Program Files (x86)\Steam\steamapps"
@@ -11,4 +11,4 @@ del ".\common\Steamworks Shared\_CommonRedist" /s /q
 rmdir ".\common\Steamworks Shared\_CommonRedist" /s /q
 
 move /Y ".\common\Overwatch\_CommonRedist" ".\common\Steamworks Shared" 
-cd C:\temp
+cd C:\temp\steamcmd

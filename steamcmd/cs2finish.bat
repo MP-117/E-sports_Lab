@@ -1,4 +1,4 @@
-::cs2finish.bat written by Matthew Piotrowski 2024
+::cs2finish.bat written by Matthew Piotrowski 2024-205
 ::this cleans up the mess that steamcmd leaves when installing to a directory other than the default
 
 cd "C:\Program Files (x86)\Steam\steamapps"
@@ -12,4 +12,4 @@ rmdir ".\common\Steamworks Shared\_CommonRedist" /s /q
 
 move /Y ".\common\Counter-Strike Global Offensive\_CommonRedist" ".\common\Steamworks Shared"
 
-cd C:\temp
+cd C:\temp\steamcmd
